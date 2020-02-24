@@ -1,4 +1,4 @@
-package com.example.kdol
+package com.xeun.kdol
 
 import org.junit.Test
 

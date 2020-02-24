@@ -1,4 +1,4 @@
-package com.example.kdol
+package com.xeun.kdol
 
 fun main() {
     println("Hello World!")
