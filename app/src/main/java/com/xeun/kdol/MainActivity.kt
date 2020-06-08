@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity () {
             }
         }
 
-        activity_main_webView.loadUrl("http://watori.jp/")
+        activity_main_webView.loadUrl("https://kdol.me/")
     }
 
     fun sendMessage(view : View) {
