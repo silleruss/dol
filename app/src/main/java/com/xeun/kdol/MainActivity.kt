@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity () {
 
         val main_webView: WebView = findViewById(R.id.activity_main_webView)
         main_webView.settings.javaScriptEnabled = true
-
         main_webView.settings.domStorageEnabled = true
 
         main_webView.settings.userAgentString =
@@ -29,6 +28,7 @@ class MainActivity : AppCompatActivity () {
                 view?.loadUrl(url)
                 return true
             }
+
         }
 
         activity_main_webView.loadUrl("https://kdol.me/")
